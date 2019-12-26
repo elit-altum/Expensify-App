@@ -1,0 +1,39 @@
+.form {
+    margin-top: $l-size;
+    display: flex;
+    flex-direction: column;
+    > * {
+        margin-bottom: $m-size;
+    }
+}
+
+.form__error {
+    font-style: italic;
+    font-family: $secondary-font;
+    color: $red;
+}
+
+.form__button {
+    width: 15rem;
+    font-family: $primary-font;
+    color: $font-color-light;
+    background-color: $accent-color;
+    border: 0px transparent;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 1rem;    
+    margin-top: 5px;
+    @media (max-width: $desktop-breakpoint) {
+        max-width: 15rem;
+    }
+}
+
+.remove-button {
+    @extend .form__button;
+    color: $red;
+    background: transparent;
+    border: 2px solid $red;
+    margin-bottom: 50px;
+}
+
+

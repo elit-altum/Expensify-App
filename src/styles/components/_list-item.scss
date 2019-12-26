@@ -1,0 +1,42 @@
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size;
+    border: 1px solid darken($grey, 7%);
+    border-top: none;
+    text-decoration: none;
+    transition: all .3s ease;
+    &:hover {
+        background: lighten($grey, 2%);
+    }
+}
+
+.list-item__title {
+    font-family: $secondary-font;
+    color: $font-color-dark;
+    padding: 0 $s-size;
+    word-break: break-all;
+}
+
+.list-item__date {
+    font-family: $secondary-font;
+    color: lighten($font-color-dark, 10%);
+    font-size: $s-size;
+    padding: 0 $s-size;
+}
+
+.list-item__amount {
+
+    font-family: $secondary-font;
+    color: $font-color-dark;
+    padding: 0 $s-size;
+}
+
+.no-expense {
+    font-family: $primary-font;
+    color: $font-color-dark;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+}

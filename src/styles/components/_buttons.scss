@@ -1,0 +1,15 @@
+.login-button {
+    min-width: 15rem;
+    width: auto;
+    font-family: $primary-font;
+    color: $font-color-light;
+    background-color: $accent-color;
+    border: 0px transparent;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 1rem;    
+    margin-top: 5px;
+    @media (max-width: $desktop-breakpoint) {
+        min-width: 5rem;
+    }
+}

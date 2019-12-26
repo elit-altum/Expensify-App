@@ -1,0 +1,15 @@
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $grey;
+    color: lighten($font-color-dark, 20%);
+    font-family: $secondary-font;
+    border: 1px solid darken($grey, 7%);
+    font-size: 1.8rem;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+.list-body {
+    margin-bottom: 30px;
+}

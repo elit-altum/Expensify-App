@@ -1,0 +1,17 @@
+.expense-filters {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    @media (max-width: $desktop-breakpoint) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.expense-filters__item {
+    margin-right: 2rem;
+    @media (max-width: $desktop-breakpoint) {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    width: 100vw;
+    height: 9rem;
+    margin: 0;
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__title {
+    color: $font-color-light;
+    text-decoration: none;
+    font-family: $primary-font;
+    font-size: 2.4rem;
+    padding: 0;
+    margin-bottom: 0;
+    @media (max-width: $desktop-breakpoint) {
+        font-size: 2rem;
+    }
+}

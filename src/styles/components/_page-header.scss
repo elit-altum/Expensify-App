@@ -1,0 +1,23 @@
+.page-header {
+    background-color: $grey;
+    height: auto;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.page-header__summary {
+    padding: 2rem 0;
+    color: $font-color-dark;
+    font-family: $primary-font;
+    font-weight: 400;
+    font-size: $l-size;
+    span {
+        font-weight: 800;
+    }
+}
+
+.page-header__action {
+    margin-bottom: 10px;
+    padding-bottom: 3rem;
+}

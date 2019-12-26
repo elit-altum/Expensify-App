@@ -1,0 +1,33 @@
+.box-layout {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-layout__box {
+    text-align: center;
+    background: fade-in(#e0e0e0, 0.15);
+    opacity: 0.95;
+    padding: 50px;
+    border-radius: 5px;
+    color: $font-color-dark;
+    h1 {
+        font-family: $primary-font;
+        margin: 0;
+        font-weight: bold;
+        font-size: $xl-size;
+    }
+    p {
+        font-family: $secondary-font;
+        font-size: $m-size;
+        margin-top: 5px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+}

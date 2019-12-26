@@ -1,0 +1,4 @@
+node_modules/
+.env.development
+yarn-error.log
+.DS_Store
