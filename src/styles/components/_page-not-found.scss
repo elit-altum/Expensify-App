@@ -1,0 +1,26 @@
+.not-found-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found-content {
+    background-color: fade-in($grey, $amount: 0.3);
+    border-radius: 3px;
+    text-align: center;
+    padding: 3rem;
+}
+
+.not-found-content__title {
+    font-family: $primary-font;
+    color: $font-color-dark;
+    font-size: $xl-size;
+    margin-bottom: 30px;
+}
+
+.not-found-content__link {
+    @extend .login-button;
+    margin-top: 30px;
+}
