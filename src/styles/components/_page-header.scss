@@ -8,6 +8,7 @@
 
 .page-header__summary {
     padding: 2rem 0;
+    padding-top: 0;
     color: $font-color-dark;
     font-family: $primary-font;
     font-weight: 400;
@@ -20,4 +21,15 @@
 .page-header__action {
     margin-bottom: 10px;
     padding-bottom: 3rem;
+}
+
+.page-header__greeting {
+    text-align: right;
+    font-style: italic;
+    color: darken(#303030, 2%);
+    font-family: $secondary-font;
+    font-size: $m-size;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }

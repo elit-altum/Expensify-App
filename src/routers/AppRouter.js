@@ -17,12 +17,12 @@ import PublicRoute from './PublicRoute';
 //Custom history for <Router>
 export const history = createHistory();
 
-const AppRouter = () => (
+const AppRouter = (props) => (
   <Router history={history}>
     <div>
       <Switch>
         <PublicRoute path="/" component={LoginPage} exact={true} />
-        <PrivateRoute path="/dashboard" component={ExpenseDashboardPage} />
+        <PrivateRoute path="/dashboard" component={ () => <ExpenseDashboardPage name={props.name} />} />
         <PrivateRoute path="/create" component={AddExpensePage} />
         <PrivateRoute path="/edit/:id" component={EditExpensePage} />
         <Route path="/help" component={HelpPage} />

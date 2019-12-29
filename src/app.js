@@ -18,20 +18,20 @@ import Loader from './components/Loader';
 
 const store = configureStore();
 
-const jsx = (
-  <Provider store={store}>
-    <AppRouter />
-  </Provider>
-);
-
 
 //Pre-Loader Screen
 ReactDOM.render(<Loader />, document.getElementById('app'));
 
 //Used for rendering the app via login and logout only once for optimisation
 let hasRendered = false;
-const renderApp = () => {
+const renderApp = ( name = '') => {
   if(!hasRendered) {
+    const jsx = (
+      <Provider store={store}>
+        {/* For showing user name on summary. Chains to ExpenseSummary component */}
+        <AppRouter name={name} />
+      </Provider>
+    );
     ReactDOM.render(jsx, document.getElementById('app'));
     hasRendered = true;
   }
@@ -45,7 +45,7 @@ firebase.auth().onAuthStateChanged( (user) => {
     //If the expenses are fetched and dispatched to store, load the actual app.
     store.dispatch(startSetExpenses())
     .then( () => {
-      renderApp();
+      renderApp(user.displayName);
       if(history.location.pathname === '/') {
         //If the user is at root page and logs in then take him to dashboard if not let him stay at same page
         history.push('/dashboard');

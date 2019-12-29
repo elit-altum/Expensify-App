@@ -15,6 +15,7 @@ const ExpenseSummary = (props) => {
     return (
         <div className="page-header">
             <div className="content-container">
+                <p className="page-header__greeting">{props.name}</p>
                 <p className="page-header__summary">
                     Showing <span>{length}</span> {word} totalling <span>₹{numeral(arrayTotal / 100).format('0,0.00')}</span>
                 </p>
