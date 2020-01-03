@@ -11,6 +11,8 @@ const ExpenseSummary = (props) => {
     let arrayTotal = getTotalExpenses(props.filteredExpenses);
     let length = props.filteredExpenses.length;
 
+    let hiddenExpensesLength = props.totalExpensesLength - length;
+
     let word =  length === 1 ? 'expense' : 'expenses';
     return (
         <div className="page-header">
@@ -24,6 +26,7 @@ const ExpenseSummary = (props) => {
                         Add Expense
                     </Link>
                 </div>
+                { !!hiddenExpensesLength && <p className="page-header__unfilter">Unfiltered expenses : {hiddenExpensesLength}</p> }
             </div>           
         </div>
     )
@@ -31,7 +34,8 @@ const ExpenseSummary = (props) => {
 
 const mapStateToProps = (state) => {
     return {
-        filteredExpenses: selectExpenses(state.expenses, state.filters)
+        filteredExpenses: selectExpenses(state.expenses, state.filters),
+        totalExpensesLength: state.expenses.length
     }
 }
 

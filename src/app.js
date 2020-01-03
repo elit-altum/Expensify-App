@@ -21,6 +21,7 @@ const store = configureStore();
 
 //Pre-Loader Screen
 ReactDOM.render(<Loader />, document.getElementById('app'));
+ReactDOM.render(<Loader />, document.getElementById('for-loader'));
 
 //Used for rendering the app via login and logout only once for optimisation
 let hasRendered = false;

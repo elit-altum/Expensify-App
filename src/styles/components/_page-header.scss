@@ -45,3 +45,10 @@
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
+
+.page-header__unfilter {
+    @extend .page-header__greeting;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
