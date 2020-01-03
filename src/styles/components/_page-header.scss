@@ -18,6 +18,18 @@
     }
 }
 
+.page-header__summary_other {
+    padding: 2rem 0;
+    padding-top: 2rem;
+    color: $font-color-dark;
+    font-family: $primary-font;
+    font-weight: 400;
+    font-size: $l-size;
+    span {
+        font-weight: 800;
+    }
+}
+
 .page-header__action {
     margin-bottom: 10px;
     padding-bottom: 3rem;

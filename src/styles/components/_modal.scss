@@ -1,0 +1,50 @@
+.ReactModalPortal > div {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.edit-expense__modal {
+    background-color: $grey;
+    font-family: $primary-font;
+    text-align: center;
+    padding: 3rem;
+}
+
+.modal__header {
+    font-size: $l-size;
+    color: $font-color-dark;
+    margin: 0;
+    font-weight: bold;
+}
+
+.modal__title {
+    font-size: 2rem;
+    color: lighten($font-color-dark, 10%);
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.modal__button {
+    @extend .remove-button;
+    background-color: $red;
+    color: $font-color-light;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}

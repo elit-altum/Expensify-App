@@ -13,7 +13,7 @@ export class AddExpensePage extends React.Component {
       <div>
         <div className="page-header">
           <div className="content-container">
-            <p className="page-header__summary">Add Expense</p>
+            <p className="page-header__summary_other">Add Expense</p>
           </div>
         </div>
         <ExpenseForm
