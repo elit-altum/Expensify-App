@@ -15,6 +15,7 @@ const ExpenseSummary = (props) => {
 
     let word =  length === 1 ? 'expense' : 'expenses';
     return (
+       <div>
         <div className="page-header">
             <div className="content-container">
                 <p className="page-header__greeting">{props.name}</p>
@@ -26,9 +27,13 @@ const ExpenseSummary = (props) => {
                         Add Expense
                     </Link>
                 </div>
-                { !!hiddenExpensesLength && <p className="page-header__unfilter">Unfiltered expenses : {hiddenExpensesLength}</p> }
+                
             </div>           
         </div>
+        <div className="content-container">
+            <p className="page-header__unfilter">Unfiltered expenses : {hiddenExpensesLength}</p>
+        </div>
+       </div>
     )
 };
 

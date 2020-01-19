@@ -1,7 +1,7 @@
 .list-item{
     display: flex;
     justify-content: space-between;
-    padding: $s-size;
+    padding: $m-size;
     border: 1px solid darken($grey, 7%);
     border-top: none;
     text-decoration: none;
@@ -16,6 +16,7 @@
     color: $font-color-dark;
     padding: 0 $s-size;
     word-break: break-all;
+    font-size: 2.2rem;
 }
 
 .list-item__date {
