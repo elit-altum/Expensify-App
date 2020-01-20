@@ -1,4 +1,6 @@
 # Expensify-App
+https://img.shields.io/badge/framework-React-blue
+--
 One stop app for all your expenses!
 Login with your Google account and get started.
 
