@@ -32,7 +32,7 @@ Login with your Google account to get started.
 - From the pop-up select the google account you want to use
 - Your dashboard screen should open with your name on the top-right
 - App Navigation :
-<ol>
+    <ol>
         <li>
             __Dashboard__: Clicking the 'Expensify' text on the header from any page will redirect you to your dashboard.
         </li>
