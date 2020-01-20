@@ -32,7 +32,7 @@ Login with your Google account to get started.
 - From the pop-up select the google account you want to use
 - Your dashboard screen should open with your name on the top-right
 - App Navigation :
-&emsp<ol>
+<ol>
         <li>
             __Dashboard__: Clicking the 'Expensify' text on the header from any page will redirect you to your dashboard.
         </li>
@@ -45,14 +45,14 @@ Login with your Google account to get started.
 - Authenticate with Google to enter your dashboard.
 - Click on 'Add Expense' button below your expense summary.
 - Add all the details of your expense
-&emsp<ol>
+    <ol>
         <li>
             __Description__: Add title/description of your expense (compulsory)
         </li>
-         <li>
+            <li>
             __Amount__: Add the amount you spent format : *[..xx.yy]* (compulsory)
         </li>
-         <li>
+            <li>
             __Date__: Add the date of the expenditure *(defaults to current date)* 
         </li>
         <li>
@@ -65,7 +65,7 @@ Login with your Google account to get started.
 ### Filtering/Sorting expenses
 - Visit your dashboard page and the expense summary will show you the total number of expenses on screen and the amount they equal
 - Use the filters to filter your expenses
-&emsp<ol>
+    <ol>
         <li>
             __Search By Title__: Search for your expense by it's title and recieve per keystroke feedback of the value typed.
         </li>
@@ -74,7 +74,7 @@ Login with your Google account to get started.
         </li>       
     </ol>
 - Sort your expenses using the sort dropdown/select box
-&emsp<ol>
+    <ol>
         <li>
             __Amount__: Displays all the expenses on screen in the order of costliest expense first and the cheapest last
         </li>
