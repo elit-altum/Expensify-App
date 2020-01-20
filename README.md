@@ -32,56 +32,28 @@ Login with your Google account to get started.
 - From the pop-up select the google account you want to use
 - Your dashboard screen should open with your name on the top-right
 - App Navigation :
-    <ol>
-        <li>
-            __Dashboard__: Clicking the 'Expensify' text on the header from any page will redirect you to your dashboard.
-        </li>
-        <li>
-            __Logout__: The logout button on the top right of the header will log you out from the current session. All your expenses will be saved for further use.
-        </li>
-    </ol> 
+    1. __Dashboard__: Clicking the 'Expensify' text on the header from any page will redirect you to your dashboard.
+    2. __Logout__: The logout button on the top right of the header will log you out from the current session. All your expenses will be saved for further use.
 
 ### Creating an expense
 - Authenticate with Google to enter your dashboard.
 - Click on 'Add Expense' button below your expense summary.
 - Add all the details of your expense
-    <ol>
-        <li>
-            __Description__: Add title/description of your expense (compulsory)
-        </li>
-            <li>
-            __Amount__: Add the amount you spent format : *[..xx.yy]* (compulsory)
-        </li>
-            <li>
-            __Date__: Add the date of the expenditure *(defaults to current date)* 
-        </li>
-        <li>
-            __Note__: Add some additional information about your expense.
-        </li>
-    </ol>
+    1. __Description__: Add title/description of your expense (compulsory)
+    2. __Amount__: Add the amount you spent format : *[...xx.yy]* (compulsory)
+    3. __Date__: Add the date of the expenditure *(defaults to current date)* 
+    4. __Note__: Add some additional information about your expense.
 - Click on 'Add Expense' to save the expense
 - View it on your dashboard
 
 ### Filtering/Sorting expenses
 - Visit your dashboard page and the expense summary will show you the total number of expenses on screen and the amount they equal
 - Use the filters to filter your expenses
-    <ol>
-        <li>
-            __Search By Title__: Search for your expense by it's title and recieve per keystroke feedback of the value typed.
-        </li>
-        <li>
-            __Search By Date__: Search for a group of expenses you saved between two particular dates i.e the start date and the end date.
-        </li>       
-    </ol>
+    1. __Search By Title__: Search for your expense by it's title and recieve per keystroke feedback of the value typed.
+    2. __Search By Date__: Search for a group of expenses you saved between two particular dates i.e the start date and the end date.
 - Sort your expenses using the sort dropdown/select box
-    <ol>
-        <li>
-            __Amount__: Displays all the expenses on screen in the order of costliest expense first and the cheapest last
-        </li>
-        <li>
-            __Date__: Displays all the expenses on screen in the order such that the expense with the latest date of expenditure comes first.
-        </li>       
-    </ol>
+    1. __Amount__: Displays all the expenses on screen in the order of costliest expense first and the cheapest last
+    2. __Date__: Displays all the expenses on screen in the order such that the expense with the latest date of expenditure comes first.
 - The 'Unfiltered Expenses' component will continue to show how many expenses have been hidden due to the filters applied. 
 
 ### Editing an expense
