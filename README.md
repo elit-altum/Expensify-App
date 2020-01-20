@@ -97,6 +97,7 @@ Login with your Google account to get started.
 
 
 ## Project Setup And Use
+
 ```
 // installs dependencies and runs live-server
 
