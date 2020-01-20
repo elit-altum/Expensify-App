@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1>Expensify-App</h1>
 <img src="https://img.shields.io/badge/framework-React-blue?style=flat&logo=react" />
 <img src="https://img.shields.io/badge/package--manager-yarn-blueviolet?style=flat&logo=yarn" />
@@ -11,13 +10,6 @@ One stop app for all your expenses!<br>
 An expense manager with filters, grouping and sorting for all your expenses.
 <br> 
 Login with your Google account to get started.
-=======
-# Expensify-App
-https://img.shields.io/badge/framework-React-blue
---
-One stop app for all your expenses!
-Login with your Google account and get started.
->>>>>>> 6b2d4b6a67be3161796f44da97191cac804cfe39
 
 ### Live demo : https://elit-altum-expensify.herokuapp.com
 
