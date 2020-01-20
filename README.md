@@ -1,10 +1,11 @@
 <h1>Expensify-App</h1>
-<img src="https://img.shields.io/badge/framework-React-blue?style=flat&logo=react" />
-<img src="https://img.shields.io/badge/package--manager-yarn-blueviolet?style=flat&logo=yarn" />
-<img src="https://img.shields.io/badge/backend-nodeJS-bluegreen?style=flat" />
-<img src="https://img.shields.io/badge/module--bundler-Webpack-lightblue?style=flat&logo=webpack" />
-<br>
-<img src="https://img.shields.io/badge/made--by-elit--altum-green?style=flat" />
+<p>
+    <img src="https://img.shields.io/badge/framework-React-blue?style=flat&logo=react" />
+    <img src="https://img.shields.io/badge/package--manager-yarn-blueviolet?style=flat&logo=yarn" />
+    <img src="https://img.shields.io/badge/backend-nodeJS-bluegreen?style=flat" />
+    <img src="https://img.shields.io/badge/module--bundler-Webpack-lightblue?style=flat&logo=webpack" />
+</p>
+<p><img src="https://img.shields.io/badge/made--by-elit--altum-green?style=flat" /></p>
 
 One stop app for all your expenses!<br>
 An expense manager with filters, grouping and sorting for all your expenses.
